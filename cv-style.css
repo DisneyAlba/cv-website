@@ -4,49 +4,22 @@ body {
 }
 
 h1 {
+    margin: 0;
     color: #706BB7;
 }
 
 h3 {
     color: #706BB7;
 }
-
-.main {
-    display: flex;
-    flex-flow: row;
+ 
+.divider {
+    margin: 2rem 0;
 }
 
-.sidebar {
-    flex-grow: 1;
-    max-width: 30%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 2rem;
-}
-  
-.more-info {
-    flex-grow: 2;
-    margin: 2rem;
-}
-
-.work-experience {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 0 0 2rem 0;
-    padding: 2rem;
-}
-  
 .education {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0 0 2rem 0;
     padding: 2rem;
-}
-
-.other-experience {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 2rem;
-}
-
-.social-media-button {
-    height: 2rem;
 }
 
 .footer {
@@ -56,32 +29,8 @@ h3 {
     margin: 0;
 }
 
-.header {
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-}
-
-.profilePicture {
-    max-width: 100%;
-}
-
-.pictureOverlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #AAA5EE;
-    color: white;
-    margin: 0;
-    padding: 1rem;
-}
-
-.sidebarMain {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    margin: 2rem;
+.fourty {
+    width: 40%;
 }
 
 .generalInfo {
@@ -91,26 +40,10 @@ h3 {
     padding-inline-start: 0;
 }
 
-.sidebarIcon {
-    height: 1.5rem;
-    margin: 0 1rem;
-}
-
-.divider {
-    margin: 2rem 0;
-}
-
-.sidebarTitle {
-    margin-bottom: 0;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-}
-
-.progressBar {
-    height: 1rem;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    border-radius: 2px;
-    margin: 0.5rem;
+.header {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
 }
 
 .level {
@@ -124,10 +57,82 @@ h3 {
     text-align: center;
 }
 
+.main {
+    display: flex;
+    flex-flow: row;
+}
+
+.more-info {
+    flex-grow: 2;
+    margin: 2rem;
+}
+
+.more-infoTitle {
+    margin:0;
+}
+
+.other-experience {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem;
+}
+
+.pictureOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #AAA5EE;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+}
+
+.profilePicture {
+    max-width: 100%;
+}
+
+.progressBar {
+    height: 1rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 2px;
+    margin: 0.5rem;
+}
+
+.sidebar {
+    flex-grow: 1;
+    max-width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2rem;
+}
+
+.sidebarIcon {
+    height: 1.5rem;
+    margin: 0 1rem;
+}
+
+.sidebarMain {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 2rem;
+}
+
+.sidebarTitle {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
 .sixty {
     width: 60%;
 }
 
-.fourty {
-    width: 40%;
+.social-media-button {
+    height: 2rem;
+}
+  
+.work-experience {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 0 2rem 0;
+    padding: 2rem;
 }
