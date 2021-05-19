@@ -36,6 +36,12 @@ h3 {
   
 .education {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 0 2rem 0;
+    padding: 2rem;
+}
+
+.other-experience {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 2rem;
 }
 
@@ -94,7 +100,7 @@ h3 {
     margin: 2rem 0;
 }
 
-.progressTitle {
+.sidebarTitle {
     margin-bottom: 0;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
